@@ -1,0 +1,49 @@
+SUPPORTNOVA - UPDATED RUN GUIDE
+================================
+
+1) Install prerequisites
+   - Python 3.11+ recommended
+   - Node.js 18+ recommended
+
+2) Easiest way on Windows
+   Double-click RUN_ALL.bat
+
+   This opens:
+   - Backend:  http://localhost:8000
+   - Frontend: http://localhost:5173
+
+3) Manual backend
+   Double-click RUN_BACKEND.bat
+   or:
+     cd backend
+     venv\Scripts\python.exe -m uvicorn app.main:app --host 0.0.0.0 --port 8000 --reload
+
+4) Manual frontend
+     cd frontend
+     npm install
+     npm run dev
+
+5) API documentation
+   http://localhost:8000/docs
+
+6) Health check
+   http://localhost:8000/api/health
+
+7) API connection
+   Frontend calls /api/* through frontend/vite.config.ts.
+   During development Vite proxies /api/* to http://localhost:8000.
+
+8) AI
+   If GEMINI_API_KEY is empty, SupportNova automatically falls back to its
+   deterministic offline provider. The rest of the complaint workflow still works.
+
+9) Build frontend for single-service deployment
+     cd frontend
+     npm install
+     npm run build
+   The FastAPI backend will serve frontend/dist automatically when it exists.
+
+IMPORTANT
+---------
+Do not delete frontend/package-lock.json. Running npm install/npm ci restores
+all frontend dependencies, including Vite and its TypeScript client types.

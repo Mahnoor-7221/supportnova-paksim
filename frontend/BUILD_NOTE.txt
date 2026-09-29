@@ -1,0 +1,20 @@
+FRONTEND BUILD / RUN NOTE
+=========================
+
+The source project is configured with Vite + React + TypeScript.
+The repository intentionally does not ship node_modules.
+
+First run:
+  npm install
+  npm run build
+
+For development:
+  npm run dev
+
+The Vite development server proxies /api/* to:
+  http://localhost:8000
+
+Therefore the FastAPI backend must be running while using the frontend.
+
+If TypeScript reports that vite/client cannot be found, run `npm install`
+in the frontend directory. This restores the dependencies from package-lock.json.

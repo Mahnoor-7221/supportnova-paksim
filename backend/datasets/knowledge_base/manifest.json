@@ -1,0 +1,194 @@
+{
+  "documents": [
+    {
+      "code": "DOC-001",
+      "title": "SIM & Account Support Policy",
+      "file": "sim-pol-01.md",
+      "doc_type": "policy",
+      "category": "SIM & Account",
+      "policy_id": "SIM-POL-01",
+      "policy_title": "SIM & Account Support Policy",
+      "summary": "Approved policy for SIM & Account complaints."
+    },
+    {
+      "code": "DOC-002",
+      "title": "Mobile Internet Support Policy",
+      "file": "net-pol-02.md",
+      "doc_type": "policy",
+      "category": "Mobile Internet",
+      "policy_id": "NET-POL-02",
+      "policy_title": "Mobile Internet Support Policy",
+      "summary": "Approved policy for Mobile Internet complaints."
+    },
+    {
+      "code": "DOC-003",
+      "title": "Calls & SMS Support Policy",
+      "file": "call-pol-03.md",
+      "doc_type": "policy",
+      "category": "Calls & SMS",
+      "policy_id": "CALL-POL-03",
+      "policy_title": "Calls & SMS Support Policy",
+      "summary": "Approved policy for Calls & SMS complaints."
+    },
+    {
+      "code": "DOC-004",
+      "title": "Network & Coverage Support Policy",
+      "file": "net-pol-04.md",
+      "doc_type": "policy",
+      "category": "Network & Coverage",
+      "policy_id": "NET-POL-04",
+      "policy_title": "Network & Coverage Support Policy",
+      "summary": "Approved policy for Network & Coverage complaints."
+    },
+    {
+      "code": "DOC-005",
+      "title": "Balance & Billing Support Policy",
+      "file": "bil-pol-05.md",
+      "doc_type": "policy",
+      "category": "Balance & Billing",
+      "policy_id": "BIL-POL-05",
+      "policy_title": "Balance & Billing Support Policy",
+      "summary": "Approved policy for Balance & Billing complaints."
+    },
+    {
+      "code": "DOC-006",
+      "title": "Packages & Bundles Support Policy",
+      "file": "pkg-pol-06.md",
+      "doc_type": "policy",
+      "category": "Packages & Bundles",
+      "policy_id": "PKG-POL-06",
+      "policy_title": "Packages & Bundles Support Policy",
+      "summary": "Approved policy for Packages & Bundles complaints."
+    },
+    {
+      "code": "DOC-007",
+      "title": "SIM Replacement Support Policy",
+      "file": "sim-pol-07.md",
+      "doc_type": "policy",
+      "category": "SIM Replacement",
+      "policy_id": "SIM-POL-07",
+      "policy_title": "SIM Replacement Support Policy",
+      "summary": "Approved policy for SIM Replacement complaints."
+    },
+    {
+      "code": "DOC-008",
+      "title": "Number Portability Support Policy",
+      "file": "mnp-pol-08.md",
+      "doc_type": "policy",
+      "category": "Number Portability",
+      "policy_id": "MNP-POL-08",
+      "policy_title": "Number Portability Support Policy",
+      "summary": "Approved policy for Number Portability complaints."
+    },
+    {
+      "code": "DOC-009",
+      "title": "Roaming Support Policy",
+      "file": "rom-pol-09.md",
+      "doc_type": "policy",
+      "category": "Roaming",
+      "policy_id": "ROM-POL-09",
+      "policy_title": "Roaming Support Policy",
+      "summary": "Approved policy for Roaming complaints."
+    },
+    {
+      "code": "DOC-010",
+      "title": "Fraud & Security Support Policy",
+      "file": "sec-pol-10.md",
+      "doc_type": "policy",
+      "category": "Fraud & Security",
+      "policy_id": "SEC-POL-10",
+      "policy_title": "Fraud & Security Support Policy",
+      "summary": "Approved policy for Fraud & Security complaints."
+    },
+    {
+      "code": "SIM-POL-11",
+      "title": "SIM Blocking Lost Stolen",
+      "file": "sim-block-11.md"
+    },
+    {
+      "code": "NET-POL-12",
+      "title": "Network Signal Troubleshooting",
+      "file": "ts-network-12.md"
+    },
+    {
+      "code": "DOC-013",
+      "title": "Complaint Intake & Classification SOP",
+      "file": "intake-sop-13.md",
+      "doc_type": "sop",
+      "category": "Operations",
+      "policy_id": "OPS-SOP-13",
+      "policy_title": "Complaint Intake & Classification SOP",
+      "summary": "Standard procedure for capturing, classifying, validating and routing telecom complaints."
+    },
+    {
+      "code": "DOC-014",
+      "title": "Customer Identity Verification SOP",
+      "file": "identity-sop-14.md",
+      "doc_type": "sop",
+      "category": "SIM & Account",
+      "policy_id": "SIM-SOP-14",
+      "policy_title": "Customer Identity Verification SOP",
+      "summary": "Standard procedure for identity verification before account-sensitive actions."
+    },
+    {
+      "code": "DOC-015",
+      "title": "Billing Dispute Review SOP",
+      "file": "billing-sop-15.md",
+      "doc_type": "sop",
+      "category": "Balance & Billing",
+      "policy_id": "BIL-SOP-15",
+      "policy_title": "Billing Dispute Review SOP",
+      "summary": "Standard procedure for investigating disputed charges and billing adjustments."
+    },
+    {
+      "code": "DOC-016",
+      "title": "Network Outage Escalation SOP",
+      "file": "outage-sop-16.md",
+      "doc_type": "sop",
+      "category": "Network & Coverage",
+      "policy_id": "NET-SOP-16",
+      "policy_title": "Network Outage Escalation SOP",
+      "summary": "Standard procedure for outage triage, evidence collection and escalation."
+    },
+    {
+      "code": "DOC-017",
+      "title": "Fraud Incident Response SOP",
+      "file": "fraud-sop-17.md",
+      "doc_type": "sop",
+      "category": "Fraud & Security",
+      "policy_id": "SEC-SOP-17",
+      "policy_title": "Fraud Incident Response SOP",
+      "summary": "Standard procedure for suspected fraud, SIM misuse and account compromise."
+    },
+    {
+      "code": "DOC-018",
+      "title": "SIM Replacement Verification SOP",
+      "file": "replacement-sop-18.md",
+      "doc_type": "sop",
+      "category": "SIM Replacement",
+      "policy_id": "SIM-SOP-18",
+      "policy_title": "SIM Replacement Verification SOP",
+      "summary": "Standard procedure for lost, stolen and replacement SIM requests."
+    },
+    {
+      "code": "DOC-019",
+      "title": "Number Portability Resolution SOP",
+      "file": "mnp-sop-19.md",
+      "doc_type": "sop",
+      "category": "Number Portability",
+      "policy_id": "MNP-SOP-19",
+      "policy_title": "Number Portability Resolution SOP",
+      "summary": "Standard procedure for MNP eligibility checks, status checks and escalation."
+    },
+    {
+      "code": "DOC-020",
+      "title": "Complaint Closure & Quality SOP",
+      "file": "closure-sop-20.md",
+      "doc_type": "sop",
+      "category": "Customer Support",
+      "policy_id": "QA-SOP-20",
+      "policy_title": "Complaint Closure & Quality SOP",
+      "summary": "Standard procedure for resolution confirmation, closure evidence and quality review."
+    }
+  ]
+}

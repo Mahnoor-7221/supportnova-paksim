@@ -1,0 +1,1125 @@
+{
+ "count": 140,
+ "policies": [
+  {
+   "id": "PUB-01-01",
+   "category": "SIM & Account",
+   "title": "SIM registration and ownership",
+   "guidance": "A SIM is tied to its registered owner. Only the owner, or someone with verified consent, can request changes.",
+   "escalates": false,
+   "kb_ref": "SIM-POL-01"
+  },
+  {
+   "id": "PUB-01-02",
+   "category": "SIM & Account",
+   "title": "Identity verification before changes",
+   "guidance": "Identity is verified before any SIM or account change. Nova does not perform sensitive changes inside chat.",
+   "escalates": false,
+   "kb_ref": "SIM-POL-01"
+  },
+  {
+   "id": "PUB-01-03",
+   "category": "SIM & Account",
+   "title": "SIM activation help",
+   "guidance": "If a new SIM is not active, share the number and when you got it; guidance and a complaint are available if it stays inactive.",
+   "escalates": false,
+   "kb_ref": "SIM-POL-01"
+  },
+  {
+   "id": "PUB-01-04",
+   "category": "SIM & Account",
+   "title": "Replacement or duplicate SIM",
+   "guidance": "Replacement is handled through verified channels with the registered owner's identity documents.",
+   "escalates": true,
+   "kb_ref": "SIM-POL-01"
+  },
+  {
+   "id": "PUB-01-05",
+   "category": "SIM & Account",
+   "title": "Lost or stolen SIM",
+   "guidance": "Report it as soon as possible so the number can be blocked. This is treated as a priority case and reviewed by a human.",
+   "escalates": true,
+   "kb_ref": "SIM-POL-01"
+  },
+  {
+   "id": "PUB-01-06",
+   "category": "SIM & Account",
+   "title": "Snatched phone with SIM inside",
+   "guidance": "Report immediately; a priority complaint is created and staff review it. Follow local police reporting advice.",
+   "escalates": true,
+   "kb_ref": "SIM-POL-01"
+  },
+  {
+   "id": "PUB-01-07",
+   "category": "SIM & Account",
+   "title": "Account access problems",
+   "guidance": "For login problems use the reset options in the app. Nova never asks for your password or OTP.",
+   "escalates": false,
+   "kb_ref": "SIM-POL-01"
+  },
+  {
+   "id": "PUB-01-08",
+   "category": "SIM & Account",
+   "title": "Changing account contact details",
+   "guidance": "Contact detail changes require verification and may be routed to an agent.",
+   "escalates": false,
+   "kb_ref": "SIM-POL-01"
+  },
+  {
+   "id": "PUB-01-09",
+   "category": "SIM & Account",
+   "title": "Multiple SIMs on one identity",
+   "guidance": "Questions about SIMs linked to your identity are checked by staff, not answered from chat.",
+   "escalates": true,
+   "kb_ref": "SIM-POL-01"
+  },
+  {
+   "id": "PUB-01-10",
+   "category": "SIM & Account",
+   "title": "Someone else's SIM or account",
+   "guidance": "Requests about another person's SIM or account are declined unless authorisation is verified.",
+   "escalates": true,
+   "kb_ref": "SIM-POL-01"
+  },
+  {
+   "id": "PUB-02-01",
+   "category": "Mobile Internet",
+   "title": "Slow internet basics",
+   "guidance": "Check data balance, signal, airplane mode toggle and a restart before raising a complaint.",
+   "escalates": false,
+   "kb_ref": "NET-POL-02"
+  },
+  {
+   "id": "PUB-02-02",
+   "category": "Mobile Internet",
+   "title": "Internet not working after recharge",
+   "guidance": "Confirm the package is active in the app and note the time; if it is not, a complaint is created.",
+   "escalates": false,
+   "kb_ref": "NET-POL-02"
+  },
+  {
+   "id": "PUB-02-03",
+   "category": "Mobile Internet",
+   "title": "Data balance questions",
+   "guidance": "Balance shown in the app is the reference. Report mismatches with a screenshot and time.",
+   "escalates": false,
+   "kb_ref": "NET-POL-02"
+  },
+  {
+   "id": "PUB-02-04",
+   "category": "Mobile Internet",
+   "title": "APN and data settings",
+   "guidance": "Confirm mobile data is on and settings are default. Reset network settings only if you are comfortable doing so.",
+   "escalates": false,
+   "kb_ref": "NET-POL-02"
+  },
+  {
+   "id": "PUB-02-05",
+   "category": "Mobile Internet",
+   "title": "Fair usage limits",
+   "guidance": "Packages follow the fair-usage terms shown at purchase; check the package details before buying.",
+   "escalates": false,
+   "kb_ref": "NET-POL-02"
+  },
+  {
+   "id": "PUB-02-06",
+   "category": "Mobile Internet",
+   "title": "Data disappearing quickly",
+   "guidance": "Review background apps and auto-updates; if usage looks wrong, raise a billing or usage complaint.",
+   "escalates": false,
+   "kb_ref": "NET-POL-02"
+  },
+  {
+   "id": "PUB-02-07",
+   "category": "Mobile Internet",
+   "title": "Social media apps not loading",
+   "guidance": "Test another app and network to isolate the issue; report with the app name and time.",
+   "escalates": false,
+   "kb_ref": "NET-POL-02"
+  },
+  {
+   "id": "PUB-02-08",
+   "category": "Mobile Internet",
+   "title": "Hotspot and tethering",
+   "guidance": "Hotspot use draws from the same package. Check the package terms for any limits.",
+   "escalates": false,
+   "kb_ref": "NET-POL-02"
+  },
+  {
+   "id": "PUB-02-09",
+   "category": "Mobile Internet",
+   "title": "Data package activation delays",
+   "guidance": "Wait a short while, restart the phone, and check the app; then report the order reference.",
+   "escalates": false,
+   "kb_ref": "NET-POL-02"
+  },
+  {
+   "id": "PUB-02-10",
+   "category": "Mobile Internet",
+   "title": "Speed complaints",
+   "guidance": "Include location, time, and a speed test result so the technical team can investigate.",
+   "escalates": false,
+   "kb_ref": "NET-POL-02"
+  },
+  {
+   "id": "PUB-03-01",
+   "category": "Calls & SMS",
+   "title": "Cannot make calls",
+   "guidance": "Check balance, package validity and signal, then restart. Report the number you tried and the time.",
+   "escalates": false,
+   "kb_ref": "CALL-POL-03"
+  },
+  {
+   "id": "PUB-03-02",
+   "category": "Calls & SMS",
+   "title": "Cannot receive calls",
+   "guidance": "Check call forwarding and do-not-disturb settings on the phone first.",
+   "escalates": false,
+   "kb_ref": "CALL-POL-03"
+  },
+  {
+   "id": "PUB-03-03",
+   "category": "Calls & SMS",
+   "title": "Dropped or poor quality calls",
+   "guidance": "Note locations and times; repeated drops in one area are logged for the technical team.",
+   "escalates": false,
+   "kb_ref": "CALL-POL-03"
+  },
+  {
+   "id": "PUB-03-04",
+   "category": "Calls & SMS",
+   "title": "SMS not sending",
+   "guidance": "Check balance, the message centre setting and the recipient number; then report it.",
+   "escalates": false,
+   "kb_ref": "CALL-POL-03"
+  },
+  {
+   "id": "PUB-03-05",
+   "category": "Calls & SMS",
+   "title": "SMS not receiving",
+   "guidance": "Check storage on the phone and blocked-sender settings before reporting.",
+   "escalates": false,
+   "kb_ref": "CALL-POL-03"
+  },
+  {
+   "id": "PUB-03-06",
+   "category": "Calls & SMS",
+   "title": "Unknown or unwanted calls",
+   "guidance": "Do not share personal details. Report repeated unwanted calls with numbers and times.",
+   "escalates": true,
+   "kb_ref": "CALL-POL-03"
+  },
+  {
+   "id": "PUB-03-07",
+   "category": "Calls & SMS",
+   "title": "Suspicious SMS or links",
+   "guidance": "Do not click links or reply. Report it; the case is reviewed as a potential fraud attempt.",
+   "escalates": true,
+   "kb_ref": "CALL-POL-03"
+  },
+  {
+   "id": "PUB-03-08",
+   "category": "Calls & SMS",
+   "title": "Call charges questions",
+   "guidance": "Charges are checked against your package terms and records; a complaint is opened for disputes.",
+   "escalates": false,
+   "kb_ref": "CALL-POL-03"
+  },
+  {
+   "id": "PUB-03-09",
+   "category": "Calls & SMS",
+   "title": "Minutes bundle usage",
+   "guidance": "Bundle usage can be viewed in the app. Report mismatches with the date and time.",
+   "escalates": false,
+   "kb_ref": "CALL-POL-03"
+  },
+  {
+   "id": "PUB-03-10",
+   "category": "Calls & SMS",
+   "title": "Call forwarding and waiting",
+   "guidance": "These are phone or network settings you can toggle; ask Nova for general steps.",
+   "escalates": false,
+   "kb_ref": "CALL-POL-03"
+  },
+  {
+   "id": "PUB-04-01",
+   "category": "Network & Coverage",
+   "title": "No signal",
+   "guidance": "Restart, reseat the SIM, and try another location; then report your area and time.",
+   "escalates": false,
+   "kb_ref": "NET-POL-04"
+  },
+  {
+   "id": "PUB-04-02",
+   "category": "Network & Coverage",
+   "title": "Weak signal indoors",
+   "guidance": "Signal can drop indoors; report the address area so the pattern can be reviewed.",
+   "escalates": false,
+   "kb_ref": "NET-POL-04"
+  },
+  {
+   "id": "PUB-04-03",
+   "category": "Network & Coverage",
+   "title": "Area-wide outage reports",
+   "guidance": "Multiple reports from one area are grouped and passed to the technical team.",
+   "escalates": false,
+   "kb_ref": "NET-POL-04"
+  },
+  {
+   "id": "PUB-04-04",
+   "category": "Network & Coverage",
+   "title": "Network mode settings",
+   "guidance": "Switching between automatic and preferred network modes can help; steps vary by phone.",
+   "escalates": false,
+   "kb_ref": "NET-POL-04"
+  },
+  {
+   "id": "PUB-04-05",
+   "category": "Network & Coverage",
+   "title": "Coverage questions before buying",
+   "guidance": "Coverage varies by location. Nova gives general guidance and does not promise coverage at a specific spot.",
+   "escalates": false,
+   "kb_ref": "NET-POL-04"
+  },
+  {
+   "id": "PUB-04-06",
+   "category": "Network & Coverage",
+   "title": "Network problems while travelling",
+   "guidance": "Note the route and time; mobile coverage may vary along the way.",
+   "escalates": false,
+   "kb_ref": "NET-POL-04"
+  },
+  {
+   "id": "PUB-04-07",
+   "category": "Network & Coverage",
+   "title": "Tower or site complaints",
+   "guidance": "Site and tower concerns are logged as complaints and reviewed by the technical team.",
+   "escalates": true,
+   "kb_ref": "NET-POL-04"
+  },
+  {
+   "id": "PUB-04-08",
+   "category": "Network & Coverage",
+   "title": "Emergency services access",
+   "guidance": "In an emergency contact local emergency services directly; do not rely on chat.",
+   "escalates": true,
+   "kb_ref": "NET-POL-04"
+  },
+  {
+   "id": "PUB-04-09",
+   "category": "Network & Coverage",
+   "title": "Repeated network complaints",
+   "guidance": "Repeated issues in the same area are linked so the team sees the pattern.",
+   "escalates": false,
+   "kb_ref": "NET-POL-04"
+  },
+  {
+   "id": "PUB-04-10",
+   "category": "Network & Coverage",
+   "title": "Planned maintenance notices",
+   "guidance": "Maintenance notices appear in the app when available; check there first.",
+   "escalates": false,
+   "kb_ref": "NET-POL-04"
+  },
+  {
+   "id": "PUB-05-01",
+   "category": "Balance & Billing",
+   "title": "Recharge not reflected",
+   "guidance": "Keep the transaction reference ready; a complaint is created and verified against records.",
+   "escalates": false,
+   "kb_ref": "BIL-POL-05"
+  },
+  {
+   "id": "PUB-05-02",
+   "category": "Balance & Billing",
+   "title": "Wrong balance deduction",
+   "guidance": "Report with date, amount and what you were doing; the charge is verified before any correction.",
+   "escalates": false,
+   "kb_ref": "BIL-POL-05"
+  },
+  {
+   "id": "PUB-05-03",
+   "category": "Balance & Billing",
+   "title": "Refund requests",
+   "guidance": "Refunds are reviewed against records. Approved corrections are applied as per the approved policy.",
+   "escalates": true,
+   "kb_ref": "BIL-POL-05"
+  },
+  {
+   "id": "PUB-05-04",
+   "category": "Balance & Billing",
+   "title": "Duplicate charge",
+   "guidance": "Provide both transaction references; staff verify and respond through your complaint.",
+   "escalates": true,
+   "kb_ref": "BIL-POL-05"
+  },
+  {
+   "id": "PUB-05-05",
+   "category": "Balance & Billing",
+   "title": "Unknown deduction",
+   "guidance": "Check active packages and subscriptions first, then report the amount and time.",
+   "escalates": false,
+   "kb_ref": "BIL-POL-05"
+  },
+  {
+   "id": "PUB-05-06",
+   "category": "Balance & Billing",
+   "title": "Loan or credit balance questions",
+   "guidance": "Ask Nova for general information; account-specific balances are shown in the app.",
+   "escalates": false,
+   "kb_ref": "BIL-POL-05"
+  },
+  {
+   "id": "PUB-05-07",
+   "category": "Balance & Billing",
+   "title": "Bill or statement questions",
+   "guidance": "Statements are provided through the app or official channels, not through chat text.",
+   "escalates": false,
+   "kb_ref": "BIL-POL-05"
+  },
+  {
+   "id": "PUB-05-08",
+   "category": "Balance & Billing",
+   "title": "Payment method problems",
+   "guidance": "Never share a full card or bank number in chat. Use the official payment flow.",
+   "escalates": true,
+   "kb_ref": "BIL-POL-05"
+  },
+  {
+   "id": "PUB-05-09",
+   "category": "Balance & Billing",
+   "title": "Advance or top-up mistakes",
+   "guidance": "Wrong-number top-ups are reviewed case by case; report the details promptly.",
+   "escalates": true,
+   "kb_ref": "BIL-POL-05"
+  },
+  {
+   "id": "PUB-05-10",
+   "category": "Balance & Billing",
+   "title": "Tax and charge explanations",
+   "guidance": "Nova gives general information only; official charge breakdowns come from official documents.",
+   "escalates": false,
+   "kb_ref": "BIL-POL-05"
+  },
+  {
+   "id": "PUB-06-01",
+   "category": "Packages & Offers",
+   "title": "Choosing a package",
+   "guidance": "Compare data, minutes, SMS and validity in the Packages page before ordering.",
+   "escalates": false,
+   "kb_ref": "PKG-POL-06"
+  },
+  {
+   "id": "PUB-06-02",
+   "category": "Packages & Offers",
+   "title": "Package activation",
+   "guidance": "After ordering, check the app for the active package; report if it is not active.",
+   "escalates": false,
+   "kb_ref": "PKG-POL-06"
+  },
+  {
+   "id": "PUB-06-03",
+   "category": "Packages & Offers",
+   "title": "Package validity and expiry",
+   "guidance": "Validity is shown at purchase. Check the app for current status.",
+   "escalates": false,
+   "kb_ref": "PKG-POL-06"
+  },
+  {
+   "id": "PUB-06-04",
+   "category": "Packages & Offers",
+   "title": "Auto-renewal",
+   "guidance": "Check package details and settings for renewal behaviour; ask Nova to explain general options.",
+   "escalates": false,
+   "kb_ref": "PKG-POL-06"
+  },
+  {
+   "id": "PUB-06-05",
+   "category": "Packages & Offers",
+   "title": "Unsubscribing from a package",
+   "guidance": "Use the options in the app; if unavailable, raise a request for an agent.",
+   "escalates": false,
+   "kb_ref": "PKG-POL-06"
+  },
+  {
+   "id": "PUB-06-06",
+   "category": "Packages & Offers",
+   "title": "Package price disputes",
+   "guidance": "Disputes are compared with the price shown at purchase and handled as a billing complaint.",
+   "escalates": false,
+   "kb_ref": "PKG-POL-06"
+  },
+  {
+   "id": "PUB-06-07",
+   "category": "Packages & Offers",
+   "title": "Offer eligibility",
+   "guidance": "Eligibility follows the offer terms. Nova does not promise an offer that is not listed.",
+   "escalates": false,
+   "kb_ref": "PKG-POL-06"
+  },
+  {
+   "id": "PUB-06-08",
+   "category": "Packages & Offers",
+   "title": "Bundled subscriptions",
+   "guidance": "Bundled perks depend on the plan. Check plan details before ordering.",
+   "escalates": false,
+   "kb_ref": "PKG-POL-06"
+  },
+  {
+   "id": "PUB-06-09",
+   "category": "Packages & Offers",
+   "title": "Changing plans",
+   "guidance": "Plan changes follow the approved terms; check the app or ask Nova for general steps.",
+   "escalates": false,
+   "kb_ref": "PKG-POL-06"
+  },
+  {
+   "id": "PUB-06-10",
+   "category": "Packages & Offers",
+   "title": "Group and family plans",
+   "guidance": "Group plans require the plan owner's authorisation for changes.",
+   "escalates": true,
+   "kb_ref": "PKG-POL-06"
+  },
+  {
+   "id": "PUB-07-01",
+   "category": "Roaming & Travel",
+   "title": "Using the SIM abroad",
+   "guidance": "Roaming availability depends on the plan and destination. Check plan details before travelling.",
+   "escalates": false,
+   "kb_ref": "ROM-POL-09"
+  },
+  {
+   "id": "PUB-07-02",
+   "category": "Roaming & Travel",
+   "title": "Roaming activation",
+   "guidance": "Activation options are in the app or through an agent; do not assume it is enabled by default.",
+   "escalates": false,
+   "kb_ref": "ROM-POL-09"
+  },
+  {
+   "id": "PUB-07-03",
+   "category": "Roaming & Travel",
+   "title": "No service while roaming",
+   "guidance": "Check roaming is enabled and try selecting a partner network manually; then report it.",
+   "escalates": false,
+   "kb_ref": "ROM-POL-09"
+  },
+  {
+   "id": "PUB-07-04",
+   "category": "Roaming & Travel",
+   "title": "Roaming charge questions",
+   "guidance": "Charges follow the terms in place at the time; disputes are checked by staff.",
+   "escalates": true,
+   "kb_ref": "ROM-POL-09"
+  },
+  {
+   "id": "PUB-07-05",
+   "category": "Roaming & Travel",
+   "title": "Data roaming safety",
+   "guidance": "Turn off background data if you want to control usage while travelling.",
+   "escalates": false,
+   "kb_ref": "ROM-POL-09"
+  },
+  {
+   "id": "PUB-07-06",
+   "category": "Roaming & Travel",
+   "title": "Returning from abroad",
+   "guidance": "Turn off roaming settings on your phone if not needed and restart to reconnect.",
+   "escalates": false,
+   "kb_ref": "ROM-POL-09"
+  },
+  {
+   "id": "PUB-07-07",
+   "category": "Roaming & Travel",
+   "title": "Lost phone while travelling",
+   "guidance": "Report immediately so the SIM can be blocked; a priority case is created.",
+   "escalates": true,
+   "kb_ref": "ROM-POL-09"
+  },
+  {
+   "id": "PUB-07-08",
+   "category": "Roaming & Travel",
+   "title": "International calls and SMS",
+   "guidance": "Rates depend on the plan and destination. Nova does not quote unlisted rates.",
+   "escalates": false,
+   "kb_ref": "ROM-POL-09"
+  },
+  {
+   "id": "PUB-07-09",
+   "category": "Roaming & Travel",
+   "title": "Wi-Fi calling and messaging apps",
+   "guidance": "Availability depends on the device and plan; check the plan details.",
+   "escalates": false,
+   "kb_ref": "ROM-POL-09"
+  },
+  {
+   "id": "PUB-07-10",
+   "category": "Roaming & Travel",
+   "title": "Roaming complaints",
+   "guidance": "Include country, dates and what happened so staff can review your case.",
+   "escalates": false,
+   "kb_ref": "ROM-POL-09"
+  },
+  {
+   "id": "PUB-08-01",
+   "category": "Number Portability",
+   "title": "Porting a number in",
+   "guidance": "Porting follows the official process with identity verification; start it from the app or through an agent.",
+   "escalates": false,
+   "kb_ref": "MNP-POL-08"
+  },
+  {
+   "id": "PUB-08-02",
+   "category": "Number Portability",
+   "title": "Porting a number out",
+   "guidance": "Port-out requests are handled through verified channels and may need staff review.",
+   "escalates": true,
+   "kb_ref": "MNP-POL-08"
+  },
+  {
+   "id": "PUB-08-03",
+   "category": "Number Portability",
+   "title": "Port-in status questions",
+   "guidance": "Check the status in the app; unresolved delays can be raised as a complaint.",
+   "escalates": false,
+   "kb_ref": "MNP-POL-08"
+  },
+  {
+   "id": "PUB-08-04",
+   "category": "Number Portability",
+   "title": "Documents for porting",
+   "guidance": "Identity documents of the registered owner are typically required, as per the approved process.",
+   "escalates": false,
+   "kb_ref": "MNP-POL-08"
+  },
+  {
+   "id": "PUB-08-05",
+   "category": "Number Portability",
+   "title": "Porting a number you do not own",
+   "guidance": "Requests for someone else's number are declined unless authorised and verified.",
+   "escalates": true,
+   "kb_ref": "MNP-POL-08"
+  },
+  {
+   "id": "PUB-08-06",
+   "category": "Number Portability",
+   "title": "Number retained after porting",
+   "guidance": "Your number is kept as part of a completed port; report if it behaves unexpectedly.",
+   "escalates": false,
+   "kb_ref": "MNP-POL-08"
+  },
+  {
+   "id": "PUB-08-07",
+   "category": "Number Portability",
+   "title": "Service interruptions during porting",
+   "guidance": "Short interruptions can occur while a port completes; report long ones.",
+   "escalates": false,
+   "kb_ref": "MNP-POL-08"
+  },
+  {
+   "id": "PUB-08-08",
+   "category": "Number Portability",
+   "title": "Cancelling a port request",
+   "guidance": "Cancellation is handled through the same channel used to place it.",
+   "escalates": false,
+   "kb_ref": "MNP-POL-08"
+  },
+  {
+   "id": "PUB-08-09",
+   "category": "Number Portability",
+   "title": "Port complaints",
+   "guidance": "Provide the request reference and dates; the case is routed to the right team.",
+   "escalates": false,
+   "kb_ref": "MNP-POL-08"
+  },
+  {
+   "id": "PUB-08-10",
+   "category": "Number Portability",
+   "title": "Unauthorised port suspected",
+   "guidance": "Report immediately. This is a security-sensitive case reviewed by a human.",
+   "escalates": true,
+   "kb_ref": "MNP-POL-08"
+  },
+  {
+   "id": "PUB-09-01",
+   "category": "Security & Fraud",
+   "title": "OTP, PIN and password safety",
+   "guidance": "PakSim staff and Nova never ask for OTPs, PINs or passwords. Never share them.",
+   "escalates": true,
+   "kb_ref": "SEC-POL-10"
+  },
+  {
+   "id": "PUB-09-02",
+   "category": "Security & Fraud",
+   "title": "Phishing and fake messages",
+   "guidance": "Ignore links and do not reply. Report the message so it can be reviewed.",
+   "escalates": true,
+   "kb_ref": "SEC-POL-10"
+  },
+  {
+   "id": "PUB-09-03",
+   "category": "Security & Fraud",
+   "title": "Fake agent or caller",
+   "guidance": "If a caller asks for private details, end the call and report it.",
+   "escalates": true,
+   "kb_ref": "SEC-POL-10"
+  },
+  {
+   "id": "PUB-09-04",
+   "category": "Security & Fraud",
+   "title": "Unauthorised activity on your number",
+   "guidance": "Report immediately with details; the case is prioritised and reviewed by a human.",
+   "escalates": true,
+   "kb_ref": "SEC-POL-10"
+  },
+  {
+   "id": "PUB-09-05",
+   "category": "Security & Fraud",
+   "title": "SIM swap concerns",
+   "guidance": "Report sudden loss of service you did not cause. Staff investigate as a security case.",
+   "escalates": true,
+   "kb_ref": "SEC-POL-10"
+  },
+  {
+   "id": "PUB-09-06",
+   "category": "Security & Fraud",
+   "title": "Account takeover",
+   "guidance": "Change your password, report the issue, and expect verification before changes.",
+   "escalates": true,
+   "kb_ref": "SEC-POL-10"
+  },
+  {
+   "id": "PUB-09-07",
+   "category": "Security & Fraud",
+   "title": "Fraudulent charges",
+   "guidance": "Report with dates and amounts; staff verify against records.",
+   "escalates": true,
+   "kb_ref": "SEC-POL-10"
+  },
+  {
+   "id": "PUB-09-08",
+   "category": "Security & Fraud",
+   "title": "Suspicious apps or links",
+   "guidance": "Install apps only from official stores and avoid unknown links.",
+   "escalates": false,
+   "kb_ref": "SEC-POL-10"
+  },
+  {
+   "id": "PUB-09-09",
+   "category": "Security & Fraud",
+   "title": "Reporting a scam",
+   "guidance": "Give what you know without sharing secrets; a fraud case is opened for review.",
+   "escalates": true,
+   "kb_ref": "SEC-POL-10"
+  },
+  {
+   "id": "PUB-09-10",
+   "category": "Security & Fraud",
+   "title": "Staying safe online",
+   "guidance": "Use strong unique passwords and keep your phone updated.",
+   "escalates": false,
+   "kb_ref": "SEC-POL-10"
+  },
+  {
+   "id": "PUB-10-01",
+   "category": "SIM Blocking & Recovery",
+   "title": "Temporary SIM block",
+   "guidance": "A temporary block protects the number while a case is reviewed.",
+   "escalates": true,
+   "kb_ref": "SIM-POL-11"
+  },
+  {
+   "id": "PUB-10-02",
+   "category": "SIM Blocking & Recovery",
+   "title": "Unblocking a SIM",
+   "guidance": "Unblocking requires verification and may be done by staff after review.",
+   "escalates": true,
+   "kb_ref": "SIM-POL-11"
+  },
+  {
+   "id": "PUB-10-03",
+   "category": "SIM Blocking & Recovery",
+   "title": "SIM blocked unexpectedly",
+   "guidance": "Report your number and what happened; staff review why it was blocked.",
+   "escalates": true,
+   "kb_ref": "SIM-POL-11"
+  },
+  {
+   "id": "PUB-10-04",
+   "category": "SIM Blocking & Recovery",
+   "title": "Blocked after loss or theft",
+   "guidance": "Recovery follows the approved process with identity verification.",
+   "escalates": true,
+   "kb_ref": "SIM-POL-11"
+  },
+  {
+   "id": "PUB-10-05",
+   "category": "SIM Blocking & Recovery",
+   "title": "Recovering a number",
+   "guidance": "Recovery depends on verification and the case; staff will guide next steps.",
+   "escalates": true,
+   "kb_ref": "SIM-POL-11"
+  },
+  {
+   "id": "PUB-10-06",
+   "category": "SIM Blocking & Recovery",
+   "title": "Block due to security review",
+   "guidance": "Some blocks are precautionary; staff explain what is needed to lift them.",
+   "escalates": true,
+   "kb_ref": "SIM-POL-11"
+  },
+  {
+   "id": "PUB-10-07",
+   "category": "SIM Blocking & Recovery",
+   "title": "Checking block status",
+   "guidance": "Status is shown in your case; ask Nova for a general explanation.",
+   "escalates": false,
+   "kb_ref": "SIM-POL-11"
+  },
+  {
+   "id": "PUB-10-08",
+   "category": "SIM Blocking & Recovery",
+   "title": "Multiple block requests",
+   "guidance": "Repeated requests are linked to your existing case.",
+   "escalates": false,
+   "kb_ref": "SIM-POL-11"
+  },
+  {
+   "id": "PUB-10-09",
+   "category": "SIM Blocking & Recovery",
+   "title": "Blocking on someone else's behalf",
+   "guidance": "Requests for another person's SIM require verified authorisation.",
+   "escalates": true,
+   "kb_ref": "SIM-POL-11"
+  },
+  {
+   "id": "PUB-10-10",
+   "category": "SIM Blocking & Recovery",
+   "title": "Delays in unblocking",
+   "guidance": "Raise it through your complaint reference so it can be followed up.",
+   "escalates": false,
+   "kb_ref": "SIM-POL-11"
+  },
+  {
+   "id": "PUB-11-01",
+   "category": "Troubleshooting Guides",
+   "title": "Restart and airplane mode steps",
+   "guidance": "Toggle airplane mode for a short time and restart before reporting an issue.",
+   "escalates": false,
+   "kb_ref": "NET-POL-12"
+  },
+  {
+   "id": "PUB-11-02",
+   "category": "Troubleshooting Guides",
+   "title": "SIM reseating",
+   "guidance": "Power off, remove and reinsert the SIM gently, then power on.",
+   "escalates": false,
+   "kb_ref": "NET-POL-12"
+  },
+  {
+   "id": "PUB-11-03",
+   "category": "Troubleshooting Guides",
+   "title": "Software updates",
+   "guidance": "Keeping the phone updated can fix network and app problems.",
+   "escalates": false,
+   "kb_ref": "NET-POL-12"
+  },
+  {
+   "id": "PUB-11-04",
+   "category": "Troubleshooting Guides",
+   "title": "Resetting network settings",
+   "guidance": "This clears saved networks; use it only if you are comfortable.",
+   "escalates": false,
+   "kb_ref": "NET-POL-12"
+  },
+  {
+   "id": "PUB-11-05",
+   "category": "Troubleshooting Guides",
+   "title": "Testing with another phone",
+   "guidance": "Trying the SIM in another compatible phone helps isolate the fault.",
+   "escalates": false,
+   "kb_ref": "NET-POL-12"
+  },
+  {
+   "id": "PUB-11-06",
+   "category": "Troubleshooting Guides",
+   "title": "Checking mobile data toggles",
+   "guidance": "Make sure mobile data and the right SIM slot are enabled.",
+   "escalates": false,
+   "kb_ref": "NET-POL-12"
+  },
+  {
+   "id": "PUB-11-07",
+   "category": "Troubleshooting Guides",
+   "title": "Battery saver effects",
+   "guidance": "Battery saver can limit background data and notifications.",
+   "escalates": false,
+   "kb_ref": "NET-POL-12"
+  },
+  {
+   "id": "PUB-11-08",
+   "category": "Troubleshooting Guides",
+   "title": "App-specific issues",
+   "guidance": "Clear the app cache or reinstall it before blaming the network.",
+   "escalates": false,
+   "kb_ref": "NET-POL-12"
+  },
+  {
+   "id": "PUB-11-09",
+   "category": "Troubleshooting Guides",
+   "title": "What to include in a report",
+   "guidance": "Give the number, time, location and steps already tried.",
+   "escalates": false,
+   "kb_ref": "NET-POL-12"
+  },
+  {
+   "id": "PUB-11-10",
+   "category": "Troubleshooting Guides",
+   "title": "When Nova will create a complaint",
+   "guidance": "If steps do not work or the issue needs staff, Nova creates a trackable complaint.",
+   "escalates": false,
+   "kb_ref": "NET-POL-12"
+  },
+  {
+   "id": "PUB-12-01",
+   "category": "Complaints & Escalation",
+   "title": "Filing a complaint",
+   "guidance": "Describe your issue in your own words; Nova helps create a complaint when needed.",
+   "escalates": false,
+   "kb_ref": "SIM-POL-01"
+  },
+  {
+   "id": "PUB-12-02",
+   "category": "Complaints & Escalation",
+   "title": "Tracking a complaint",
+   "guidance": "Use the Track page or your complaint number to see status and timeline.",
+   "escalates": false,
+   "kb_ref": "SIM-POL-01"
+  },
+  {
+   "id": "PUB-12-03",
+   "category": "Complaints & Escalation",
+   "title": "Complaint priority",
+   "guidance": "Security-sensitive and urgent cases get higher priority than routine ones.",
+   "escalates": false,
+   "kb_ref": "SIM-POL-01"
+  },
+  {
+   "id": "PUB-12-04",
+   "category": "Complaints & Escalation",
+   "title": "What agents can do",
+   "guidance": "Agents review complaints, request details and resolve within approved rules.",
+   "escalates": false,
+   "kb_ref": "SIM-POL-01"
+  },
+  {
+   "id": "PUB-12-05",
+   "category": "Complaints & Escalation",
+   "title": "What admins oversee",
+   "guidance": "Admins oversee categories, rules, audit trails and overall service quality.",
+   "escalates": false,
+   "kb_ref": "SIM-POL-01"
+  },
+  {
+   "id": "PUB-12-06",
+   "category": "Complaints & Escalation",
+   "title": "When cases escalate",
+   "guidance": "Cases escalate when rules require it, for example security, repeated failures or delays.",
+   "escalates": true,
+   "kb_ref": "SIM-POL-01"
+  },
+  {
+   "id": "PUB-12-07",
+   "category": "Complaints & Escalation",
+   "title": "Service level targets",
+   "guidance": "Each category has a target shown in the case; delays are flagged internally.",
+   "escalates": false,
+   "kb_ref": "SIM-POL-01"
+  },
+  {
+   "id": "PUB-12-08",
+   "category": "Complaints & Escalation",
+   "title": "Adding more details",
+   "guidance": "Reply on the complaint or in chat with more information to help resolution.",
+   "escalates": false,
+   "kb_ref": "SIM-POL-01"
+  },
+  {
+   "id": "PUB-12-09",
+   "category": "Complaints & Escalation",
+   "title": "Reopening a case",
+   "guidance": "If a fix did not work, say so on the complaint so it can be reviewed.",
+   "escalates": false,
+   "kb_ref": "SIM-POL-01"
+  },
+  {
+   "id": "PUB-12-10",
+   "category": "Complaints & Escalation",
+   "title": "Giving feedback",
+   "guidance": "Feedback on a resolution helps improve support quality.",
+   "escalates": false,
+   "kb_ref": "SIM-POL-01"
+  },
+  {
+   "id": "PUB-13-01",
+   "category": "Privacy & Data",
+   "title": "What data is used",
+   "guidance": "Data is used to provide service, verify identity and resolve complaints.",
+   "escalates": false,
+   "kb_ref": "SEC-POL-10"
+  },
+  {
+   "id": "PUB-13-02",
+   "category": "Privacy & Data",
+   "title": "Data sharing",
+   "guidance": "Data is not sold; access is limited to authorised staff and is logged.",
+   "escalates": false,
+   "kb_ref": "SEC-POL-10"
+  },
+  {
+   "id": "PUB-13-03",
+   "category": "Privacy & Data",
+   "title": "Sensitive details in chat",
+   "guidance": "Do not type OTPs, passwords or full card numbers; Nova masks sensitive patterns.",
+   "escalates": true,
+   "kb_ref": "SEC-POL-10"
+  },
+  {
+   "id": "PUB-13-04",
+   "category": "Privacy & Data",
+   "title": "Access to your records",
+   "guidance": "Record requests follow verification and approved processes.",
+   "escalates": true,
+   "kb_ref": "SEC-POL-10"
+  },
+  {
+   "id": "PUB-13-05",
+   "category": "Privacy & Data",
+   "title": "Call and chat history",
+   "guidance": "Your own chat history is visible to you in your account.",
+   "escalates": false,
+   "kb_ref": "SEC-POL-10"
+  },
+  {
+   "id": "PUB-13-06",
+   "category": "Privacy & Data",
+   "title": "Correcting your details",
+   "guidance": "Update details in your profile or raise a request for verification.",
+   "escalates": false,
+   "kb_ref": "SEC-POL-10"
+  },
+  {
+   "id": "PUB-13-07",
+   "category": "Privacy & Data",
+   "title": "Deleting your data",
+   "guidance": "Deletion requests are handled through verified channels, subject to record-keeping duties.",
+   "escalates": true,
+   "kb_ref": "SEC-POL-10"
+  },
+  {
+   "id": "PUB-13-08",
+   "category": "Privacy & Data",
+   "title": "Audit trails",
+   "guidance": "Actions on cases are recorded to keep support traceable.",
+   "escalates": false,
+   "kb_ref": "SEC-POL-10"
+  },
+  {
+   "id": "PUB-13-09",
+   "category": "Privacy & Data",
+   "title": "Third-party requests",
+   "guidance": "Requests from other people about your data are not answered without authorisation.",
+   "escalates": true,
+   "kb_ref": "SEC-POL-10"
+  },
+  {
+   "id": "PUB-13-10",
+   "category": "Privacy & Data",
+   "title": "Privacy questions to Nova",
+   "guidance": "Nova gives general privacy information and escalates account-specific requests.",
+   "escalates": false,
+   "kb_ref": "SEC-POL-10"
+  },
+  {
+   "id": "PUB-14-01",
+   "category": "Nova AI Assistant",
+   "title": "What Nova can help with",
+   "guidance": "Nova gives guidance from approved policies and helps create complaints.",
+   "escalates": false,
+   "kb_ref": "SIM-POL-01"
+  },
+  {
+   "id": "PUB-14-02",
+   "category": "Nova AI Assistant",
+   "title": "Languages Nova understands",
+   "guidance": "English, Urdu, Roman Urdu and Sindhi are supported for chat.",
+   "escalates": false,
+   "kb_ref": "SIM-POL-01"
+  },
+  {
+   "id": "PUB-14-03",
+   "category": "Nova AI Assistant",
+   "title": "Answers come from approved knowledge",
+   "guidance": "Nova answers using approved knowledge and rules and does not invent policy.",
+   "escalates": false,
+   "kb_ref": "SIM-POL-01"
+  },
+  {
+   "id": "PUB-14-04",
+   "category": "Nova AI Assistant",
+   "title": "When Nova does not know",
+   "guidance": "If a request is unsupported, Nova says so and offers a human follow-up.",
+   "escalates": true,
+   "kb_ref": "SIM-POL-01"
+  },
+  {
+   "id": "PUB-14-05",
+   "category": "Nova AI Assistant",
+   "title": "Sensitive requests",
+   "guidance": "Requests involving identity, security or money changes are escalated rather than handled in chat.",
+   "escalates": true,
+   "kb_ref": "SIM-POL-01"
+  },
+  {
+   "id": "PUB-14-06",
+   "category": "Nova AI Assistant",
+   "title": "Nova never asks for secrets",
+   "guidance": "Nova will never ask for OTPs, PINs or passwords.",
+   "escalates": false,
+   "kb_ref": "SIM-POL-01"
+  },
+  {
+   "id": "PUB-14-07",
+   "category": "Nova AI Assistant",
+   "title": "Human oversight",
+   "guidance": "Humans review escalated cases, and admins can update rules.",
+   "escalates": false,
+   "kb_ref": "SIM-POL-01"
+  },
+  {
+   "id": "PUB-14-08",
+   "category": "Nova AI Assistant",
+   "title": "Voice input",
+   "guidance": "Voice input is available where your device supports it.",
+   "escalates": false,
+   "kb_ref": "SIM-POL-01"
+  },
+  {
+   "id": "PUB-14-09",
+   "category": "Nova AI Assistant",
+   "title": "Nova and complaints",
+   "guidance": "Nova can create a trackable complaint when self-help is not enough.",
+   "escalates": false,
+   "kb_ref": "SIM-POL-01"
+  },
+  {
+   "id": "PUB-14-10",
+   "category": "Nova AI Assistant",
+   "title": "Limits of AI answers",
+   "guidance": "Nova gives general support guidance, not legal, financial or account-specific promises.",
+   "escalates": false,
+   "kb_ref": "SIM-POL-01"
+  }
+ ]
+}

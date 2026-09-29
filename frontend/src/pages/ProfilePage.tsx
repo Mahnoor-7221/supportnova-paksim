@@ -1,0 +1,22 @@
+import { useEffect, useState } from "react";
+import { api, errorMessage } from "../lib/api";
+import { useAuth } from "../lib/auth";
+
+export default function ProfilePage(){
+  const {user}=useAuth();
+  const [name,setName]=useState(user?.full_name||""); const [email]=useState(user?.email||"");
+  const [lang,setLang]=useState(localStorage.getItem("paksim_preferred_language")||"Roman Urdu");
+  const [current,setCurrent]=useState(""); const [next,setNext]=useState(""); const [confirm,setConfirm]=useState(""); const [msg,setMsg]=useState(""); const [error,setError]=useState(""); const [saving,setSaving]=useState(false);
+  useEffect(()=>{setName(user?.full_name||"")},[user]);
+  const save=async()=>{setSaving(true);setMsg("");setError("");try{await api("/api/auth/profile",{method:"PATCH",body:{full_name:name,preferred_language:lang}});localStorage.setItem("paksim_preferred_language",lang);setMsg("Profile updated successfully.");setTimeout(()=>window.location.reload(),450);}catch(e){setError(errorMessage(e));}finally{setSaving(false)}};
+  const changePassword=async()=>{setMsg("");setError("");if(next.length<8){setError("New password must be at least 8 characters.");return}if(next!==confirm){setError("New password and confirmation do not match.");return}setSaving(true);try{await api("/api/auth/password",{method:"POST",body:{current_password:current,new_password:next}});setCurrent("");setNext("");setConfirm("");setMsg("Password changed successfully.");}catch(e){setError(errorMessage(e));}finally{setSaving(false)}};
+  const initials=(user?.full_name||"U").split(" ").map(x=>x[0]).slice(0,2).join("").toUpperCase();
+  return <div className="profile-page"><div className="customer-page-heading"><div><p className="customer-kicker">Account</p><h1>My profile</h1><p>Manage your PakSim account details, language and password.</p></div></div>
+    {msg&&<div className="profile-success">✓ {msg}</div>}{error&&<div className="customer-error">{error}</div>}
+    <div className="profile-grid"><section className="profile-card profile-summary"><div className="profile-avatar">{initials}</div><h2>{user?.full_name||"PakSim Customer"}</h2><p>{email}</p><span className="profile-badge">Customer account</span><div className="profile-meta"><div><small>Customer ID</small><strong>PS-{String(user?.id||0).padStart(5,"0")}</strong></div><div><small>Status</small><strong>{user?.is_active?"Active":"Inactive"}</strong></div><div><small>Preferred language</small><strong>{lang}</strong></div></div></section>
+      <section className="profile-card"><div className="profile-card-title"><div><span>PERSONAL DETAILS</span><h2>Account information</h2></div></div><label>Full name<input value={name} onChange={e=>setName(e.target.value)} /></label><label>Email address<input value={email} disabled /></label><label>Preferred language<select value={lang} onChange={e=>setLang(e.target.value)}><option>Roman Urdu</option><option>English</option><option>Urdu</option><option>Sindhi</option></select></label><button className="customer-button primary" onClick={()=>void save()} disabled={saving}>{saving?"Saving…":"Save changes"}</button></section>
+      <section className="profile-card password-card"><div className="profile-card-title"><div><span>SECURITY</span><h2>Change password</h2></div></div><p className="profile-help">Use a strong password with at least 8 characters.</p><label>Current password<input type="password" value={current} onChange={e=>setCurrent(e.target.value)} autoComplete="current-password" /></label><label>New password<input type="password" value={next} onChange={e=>setNext(e.target.value)} autoComplete="new-password" /></label><label>Confirm new password<input type="password" value={confirm} onChange={e=>setConfirm(e.target.value)} autoComplete="new-password" /></label><button className="customer-button primary" onClick={()=>void changePassword()} disabled={saving||!current||!next||!confirm}>Update password</button></section>
+      <section className="profile-card"><div className="profile-card-title"><div><span>SUPPORT PREFERENCES</span><h2>Quick access</h2></div></div><button className="profile-link" onClick={()=>window.location.assign("/complaints")}>📋 My complaints <span>→</span></button><button className="profile-link" onClick={()=>window.location.assign("/chat-history")}>💬 Chat history <span>→</span></button><button className="profile-link" onClick={()=>window.location.assign("/")}>🤖 Chat with Nova <span>→</span></button></section>
+    </div>
+  </div>
+}

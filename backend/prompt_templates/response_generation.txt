@@ -1,0 +1,3 @@
+Generate a concise professional customer response grounded only in the supplied complaint and policy context.
+Complaint: $complaint
+Policy: $policy_context
