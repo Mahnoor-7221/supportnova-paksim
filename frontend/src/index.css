@@ -1994,6 +1994,9 @@ tbody tr:hover { background: rgba(223,232,223,.35); }
 .pp-video{position:relative;width:100%;aspect-ratio:16/9;background:var(--nova-forest);border-radius:20px;overflow:hidden}
 .pp-video .lp-video{width:100%;height:100%;object-fit:cover;display:block;background:var(--nova-forest)}
 .pp-video-play{position:absolute;left:50%;bottom:16px;transform:translateX(-50%);border:0;border-radius:999px;padding:10px 20px;background:var(--nova-brass);color:#fff;font-weight:700;cursor:pointer}
+.pp-video{position:relative}
+.pp-video-sound{position:absolute;right:14px;bottom:14px;border:0;border-radius:999px;padding:9px 16px;background:rgba(18,59,50,.88);color:#fff;font-weight:700;font-size:13px;cursor:pointer;backdrop-filter:blur(4px)}
+.pp-video-sound:hover{background:var(--nova-brass)}
 .pp-video-fallback{position:relative;width:100%;aspect-ratio:16/9;border-radius:20px;overflow:hidden;background:var(--nova-forest)}
 .pp-video-fallback img{width:100%;height:100%;object-fit:cover;display:block}
 .pp-video-fallback div{position:absolute;inset:auto 0 0 0;padding:16px 20px;color:#fffdf6;background:linear-gradient(transparent,rgba(18,59,50,.92))}
