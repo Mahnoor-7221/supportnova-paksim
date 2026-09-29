@@ -16,9 +16,9 @@ backend/.pytest_cache
 backend/.venv
 venv
 
-# Runtime state & secrets
+# Secrets
 .env
 backend/.env
-backend/supportnova.db
-backend/supportnova.db-journal
-backend/storage
+
+# NOTE: backend/supportnova.db is intentionally NOT ignored, so the
+# pre-seeded database ships with the image (starts in ~20s instead of ~2min).
